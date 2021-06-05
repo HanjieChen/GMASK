@@ -7,11 +7,7 @@ Code for the paper "Explaining Neural Network Predictions on Sentence Pairs via 
 - numpy == 1.18.5
 
 ### Data:
-Download the [data with splits](https://drive.google.com/drive/folders/12ZbWntUFGoO2WF6Ut33WzW8ochroYFbR?usp=sharing) for CNN/LSTM-VMASK.
-
-Download the [data with splits](https://drive.google.com/drive/folders/1ybKuzvAhyMqgpDjITVVA3USPhz6pehfq?usp=sharing) for BERT-VMASK.
-
-Put the data under the same folder with the code.
+Download the [data](https://drive.google.com/drive/folders/1J18AsUKuBYFtHmV0b1pfyd93G_lb2eLQ?usp=sharing) and put it in the same folder with the code.
 
 ### Train VMASK Models:
 
