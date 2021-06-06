@@ -10,12 +10,14 @@ Code for the paper "Explaining Neural Network Predictions on Sentence Pairs via 
 Download the [data](https://drive.google.com/drive/folders/1J18AsUKuBYFtHmV0b1pfyd93G_lb2eLQ?usp=sharing) and put it in the same folder with the code.
 
 ### Train models on different datasets:
-Train the decomposable attention model (DAttn) and BERT-base model on different datasets by running
+Train the decomposable attention model (DAttn) and BERT model on different datasets by running
 ```
 python train.py
 ```
 
 You can also use our well-trained [models](https://drive.google.com/drive/folders/1IKYpJdr9l1tieV7l9Ttvv3IIEzWqwH_y?usp=sharing) and put them in the same folder with the code.
+
+Note that the code is for the e-SNLI dataset. For the BERT model on other datasets, set `--task_name` with the data name `esnli, quora, qqp, mrpc`.
 
 ### Reference:
 If you find this repository helpful, please cite our paper:
