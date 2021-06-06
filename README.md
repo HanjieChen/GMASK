@@ -9,15 +9,13 @@ Code for the paper "Explaining Neural Network Predictions on Sentence Pairs via 
 ### Data:
 Download the [data](https://drive.google.com/drive/folders/1J18AsUKuBYFtHmV0b1pfyd93G_lb2eLQ?usp=sharing) and put it in the same folder with the code.
 
-### Train VMASK Models:
-
-For BERT-VMASK, we adopt the BERT-base model built by huggingface: https://github.com/huggingface/transformers. We first trained BERT-base model, and then loaded its word embeddings for training BERT-VMASK. You can download our [pretrained BERT-base models](https://drive.google.com/drive/folders/19nzAv1wWtM5UCNAORMqrNtBH6j3ZXmSz?usp=sharing), and put them under the same folder with the code.
-
-In each folder, run the following command to train VMASK-based models.
+### Train models on different datasets:
+Train the decomposable attention model (DAttn) and BERT-base model on different datasets by running
 ```
-python main.py --save /path/to/your/model
+python train.py
 ```
-Fine-tune hyperparameters (e.g. learning rate, the number of hidden units) on each dataset.
+
+You can also use our well-trained [models](https://drive.google.com/drive/folders/1IKYpJdr9l1tieV7l9Ttvv3IIEzWqwH_y?usp=sharing) and put them in the same folder with the code.
 
 ### Reference:
 If you find this repository helpful, please cite our paper:
