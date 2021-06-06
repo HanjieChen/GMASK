@@ -17,7 +17,7 @@ python train.py
 
 You can also use our well-trained [models](https://drive.google.com/drive/folders/1IKYpJdr9l1tieV7l9Ttvv3IIEzWqwH_y?usp=sharing) and put them in the same folder with the code.
 
-Note that the code is for the e-SNLI dataset. For the BERT model on other datasets, set `--task_name` with the data name `esnli/quora/qqp/mrpc`.
+Note that the code is for the e-SNLI dataset. For the BERT model on other datasets, set `--task_name` with the data name `esnli/quora/qqp/mrpc`. For the MRPC dataset, set `--max_seq_length` as `100`. For the DAttn model on other datasets, utilize the corresponding `DataLoader` and `Sampler` by revising the first two lines in `load_data.py`.
 
 ### Reference:
 If you find this repository helpful, please cite our paper:
