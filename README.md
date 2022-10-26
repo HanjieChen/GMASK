@@ -1,4 +1,5 @@
 # GMASK
+(Original repo [UVa-NLP/GMASK](https://github.com/UVa-NLP/GMASK))
 Code for the paper "Explaining Neural Network Predictions on Sentence Pairs via Learning Word-Group Masks"
 
 ### Requirement:
